@@ -1,6 +1,6 @@
 # Logistic-Regression
 
-Logistic Regression model is mainly for binary classification.<br>
+Logistic Regression model is mainly used for binary classification.<br>
 Logistic Regression model is not just another model to use, but when you apply it correctly, it can outperform even the much complicated dense neural network. <br>
 Before we dig into it, I will show you an example where it is best to use to Logistic Regression: The Titanic survival prediction model <br>
 If you use a multinomial regression model, you can basically get an accuracy around 74%. <br>
