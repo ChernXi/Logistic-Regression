@@ -12,17 +12,18 @@ To see how it was done, you can take a look at [Titanic Survival Logistic Regres
 Logistic Regression is best to use to classify binary labels from many continuous features. It can also be used when the features are not continuous.
 
 ## Logic of logistic regression
-In short, logistic regression is a pipeline of normalized multinomial regression followed by a classification using the Sigmoid Function.
-Naively speacking, it does a regression, then labels them based on the results.
+In short, logistic regression does a normalized multinomial regression followed by a classification using the Sigmoid Function.
+Naively speacking, it does a regression, then labels the result.
 
 ## Why it is more accurate in classification?
-Firstly, no information is suppressed prior to training.
-Unlike those classification methods that reduce the numerical features to classified features, logistic regression preserves the original information completely to do training.<br>
+#### Firstly, no information is suppressed prior to training.
+Unlike those classification methods that reduce the numerical features to classified features, logistic regression preserves the original information completely to do training, so it can capture more information during the training. <br>
 
-Secondly, It have a large margin of error.
-Other classification method just outcome with one result(except Random Forest which used many result to vote for the final result), they can be either correct or wrong for a binary classification problem. BUT, Logistic regression can predict a regression wrongly, but still classify them correctly.
-Logistic regression take all result from $0^+$ to $+/infinity$ as True and all result from $0^-$ to $-/infinity$ as False.
-Imagine, it could be a bad result for regression if the actual value is 100000 but the regression model predict it as 1.
+#### Secondly, It has a large tolerance of error.
+Other classification method just outcome with one result(except Random Forest which used many result to vote for the final result), they can be either correct or wrong, but no tolerance of error for a binary classification problem. However, Logistic regression can produce a bad regression result, BUT still classify them correctly.<br>
+
+Logistic regression take all result from $0^+$ to $+\infty$ as True and all result from $0^-$ to $-\infty$ as False.<br>
+Imagine, it could be a bad result for regression if the actual value is 100000 but the regression model predict it as 1.<br>
 However, after doing classification, they belongs to the same group and therefore result in a CORRECT prediction.<br>
 
 
