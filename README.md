@@ -12,7 +12,7 @@ In short, logistic regression does a normalized multinomial regression followed 
 Naively speacking, it does a regression, then labels the result.
 
 ## Why it is more accurate in classification?
-#### Firstly, no information is suppressed prior to training.
+#### Firstly, no information loss prior to training.
 Unlike those classification methods that reduce the numerical features to classified features, logistic regression preserves the original information completely to do training, so it can capture more information during the training. <br>
 
 #### Secondly, It has a large tolerance of error.
