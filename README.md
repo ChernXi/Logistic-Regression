@@ -16,7 +16,7 @@ Naively speacking, it does a regression, then labels the result.
 Unlike those classification methods that reduce the numerical features to classified features, logistic regression preserves the original information completely to do training, so it can capture more information during the training. <br>
 
 #### Secondly, It has a large tolerance of error.
-Other classification method just outcome with one result(except Random Forest which used many result to vote for the final result), they can be either correct or wrong, but no tolerance of error for a binary classification problem. However, Logistic regression can produce a bad regression result, BUT still classify them correctly.<br>
+Logistic regression can produce a bad regression result, BUT still classify them correctly.<br>
 
 Logistic regression take all result from $0^+$ to $+\infty$ as True and all result from $0^-$ to $-\infty$ as False.<br>
 Imagine, it could be a bad result for regression if the actual value is 100000 but the regression model predict it as 1.<br>
