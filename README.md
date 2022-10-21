@@ -12,10 +12,10 @@ In short, logistic regression does a normalized multinomial regression followed 
 Naively speacking, it does a regression, then labels the result.
 
 ## What are the advantages of Logistic Regression in Classification?
-#### Firstly, no information loss prior to training.
+####1. No information loss prior to training.
 Unlike those classification methods that reduce the numerical features to classified features, logistic regression preserves the original information completely to do training, so it can capture more information during the training. <br>
 
-#### Secondly, It has a large tolerance of error.
+####2. It has a large tolerance of error.
 Logistic regression can produce a bad regression result, BUT still classify them correctly.<br>
 
 Logistic regression take all result from $0^+$ to $+\infty$ as True and all result from $0^-$ to $-\infty$ as False.<br>
