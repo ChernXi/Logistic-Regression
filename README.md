@@ -11,7 +11,7 @@ Logistic Regression is best to use to classify binary labels from many continuou
 In short, logistic regression does a normalized multinomial regression followed by a classification using the Sigmoid Function.
 Naively speacking, it does a regression, then labels the result.
 
-## Why it is more accurate in classification?
+## What are the advantages of Logistic Regression in Classification?
 #### Firstly, no information loss prior to training.
 Unlike those classification methods that reduce the numerical features to classified features, logistic regression preserves the original information completely to do training, so it can capture more information during the training. <br>
 
